@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="weapon" load_steps=3 format=3 uid="uid://b2w4fniqgoim0"]
+
+[ext_resource type="Script" path="res://database/items/class_weapon.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://sj4g38x4k4nb" path="res://graphics/icons/folding_knife.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+base_damage = 1
+attack_sound = ""
+impact_sound = ""
+unique_key = "folding_knife"
+name = "Folding knife"
+icon = ExtResource("2")
+category = "weapon"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "This is a small knife that will do you a favor... But it won't be enough out there for what's waiting for you ! "
+weight = 150.0
+barter_value = 50
+is_consumable = false
+max_units_per_stack = 5
+where_to_craft = ""
+crafting_ingredients = {}
+units_in_stack = 0

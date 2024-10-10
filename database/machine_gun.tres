@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://database/items/class_item_ranged_weapon.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bqlxm0uajkj06" path="res://graphics/icons/machine_gun.png" id="2"]
+
+[resource]
+script = ExtResource( 1 )
+unique_key = "machine_gun"
+name = "Machine gun"
+icon = ExtResource( 2 )
+category = "ranged weapon"
+description = "This machine gun will allow you to chain zombies and it doesn't take too much place in the inventory. Also uses 9mm bullets. "
+weight = 2900.0
+barter_value = 400
+is_consumable = false
+max_units_per_stack = 2
+where_to_craft = ""
+crafting_ingredients = {
+}
+units_in_stack = 0
+base_damage = 10
+shot_rate = 50
+shot_distance = 10
+shot_accuracy = 60
+shot_extent = 0
+shot_kickback = 15
+bullet_type = "9_mm_bullet"
+shot_sound = ""

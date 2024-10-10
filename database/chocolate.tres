@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="item" load_steps=3 format=3 uid="uid://b0mbwd0ab3h1t"]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1_qtb3v"]
+[ext_resource type="Texture2D" uid="uid://cmpba3xk4uaqb" path="res://graphics/icons/chocolate.png" id="1_trg0r"]
+
+[resource]
+script = ExtResource("1_qtb3v")
+unique_key = "chocolate"
+name = "Chocolate"
+icon = ExtResource("1_trg0r")
+category = "consumable food"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "It's amazing to be able to still eat this kind of food ! Enjoy it"
+weight = 30.0
+barter_value = 6
+is_consumable = true
+max_units_per_stack = 5
+where_to_craft = "nowhere"
+crafting_ingredients = {}
+units_in_stack = 0

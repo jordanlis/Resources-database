@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://d2jak6qfsbegf" path="res://graphics/icons/shovel.png" id="2"]
+
+[resource]
+script = ExtResource( 1 )
+unique_key = "shovel"
+name = "Shovel"
+icon = ExtResource( 2 )
+category = "tool"
+description = "Very usefull to... Wait you don't know what it's for ? Dummy..."
+weight = 1200.0
+barter_value = 100
+is_consumable = false
+max_units_per_stack = 2
+where_to_craft = ""
+crafting_ingredients = {
+}
+units_in_stack = 0

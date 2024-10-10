@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dd3d4mtuw5jrk" path="res://graphics/icons/lighter.png" id="2"]
+
+[resource]
+script = ExtResource( 1 )
+unique_key = "lighter"
+name = "Lighter"
+icon = ExtResource( 2 )
+category = "tool"
+description = "Allow you to light a fire. Really handy to warm you up or cook a little. "
+weight = 20.0
+barter_value = 50
+is_consumable = false
+max_units_per_stack = 8
+where_to_craft = ""
+crafting_ingredients = {
+}
+units_in_stack = 0

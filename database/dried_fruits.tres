@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="item" load_steps=3 format=3 uid="uid://cfdc7uu0wmvm7"]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1_k1voc"]
+[ext_resource type="Texture2D" uid="uid://cq5fym2hax2tu" path="res://graphics/icons/dried_fruits.png" id="1_qf24d"]
+
+[resource]
+script = ExtResource("1_k1voc")
+unique_key = "dried_fruits"
+name = "Dried fruits"
+icon = ExtResource("1_qf24d")
+category = "consumable food"
+description = "They've been keeped in a plastic bag with no air inside, so it has been perfectly preserved. Brings some calories."
+weight = 50.0
+barter_value = 3
+is_consumable = true
+max_units_per_stack = 50
+where_to_craft = "nowhere"
+crafting_ingredients = {}
+units_in_stack = 0

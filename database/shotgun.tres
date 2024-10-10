@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ranged_weapon" load_steps=3 format=3 uid="uid://d3fulnmuk1pri"]
+
+[ext_resource type="Script" path="res://database/items/class_item_ranged_weapon.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bolb1vipof0kc" path="res://graphics/icons/shotgun.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+base_damage = 50
+shot_rate = 0
+shot_distance = 5
+shot_accuracy = 20
+shot_extent = 50
+shot_kickback = 40
+bullet_type = "shotgun_shell"
+shot_sound = ""
+magazine_capacity = 0
+unique_key = "shotgun"
+name = "Shotgun"
+icon = ExtResource("2")
+category = "ranged weapon"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "You can shot so many sombies at once with this weapon. You won't believe it !"
+weight = 3500.0
+barter_value = 500
+is_consumable = false
+max_units_per_stack = 1
+where_to_craft = ""
+crafting_ingredients = {}
+units_in_stack = 0

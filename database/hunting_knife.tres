@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="weapon" load_steps=3 format=3 uid="uid://d0rgjkuy0r01j"]
+
+[ext_resource type="Script" path="res://database/items/class_weapon.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://djfxfj3swguy1" path="res://graphics/icons/hunting_knife.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+base_damage = 1
+attack_sound = ""
+impact_sound = ""
+unique_key = "hunting_knife"
+name = "Hunting knife"
+icon = ExtResource("2")
+category = "weapon"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "This knife is sharp and big. It can be usefull to attack, but also to realize multiple actions such as cooking for example. "
+weight = 260.0
+barter_value = 100
+is_consumable = false
+max_units_per_stack = 4
+where_to_craft = ""
+crafting_ingredients = {}
+units_in_stack = 0

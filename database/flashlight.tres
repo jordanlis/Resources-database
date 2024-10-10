@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ce6me1umejudq" path="res://graphics/icons/flashlight.png" id="2"]
+
+[resource]
+script = ExtResource( 1 )
+unique_key = "flashlight"
+name = "Flashlight"
+icon = ExtResource( 2 )
+category = "tool"
+description = "You don't see in the dark ? Well, push the button to enlight yourpath ! "
+weight = 300.0
+barter_value = 60
+is_consumable = false
+max_units_per_stack = 1
+where_to_craft = ""
+crafting_ingredients = {
+}
+units_in_stack = 0

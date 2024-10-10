@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="item" load_steps=3 format=3 uid="uid://dsjv7vd3uk0cs"]
+
+[ext_resource type="Texture2D" uid="uid://c2nuotbhnr7jr" path="res://graphics/icons/axe.png" id="1_46x6x"]
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1_81o81"]
+
+[resource]
+script = ExtResource("1_81o81")
+unique_key = "axe"
+name = "Axe"
+icon = ExtResource("1_46x6x")
+category = "weapon"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "Makes more damage than a crowbar. But a little more dangerous : be carefull not to cut yourself !"
+weight = 1520.0
+barter_value = 25
+is_consumable = false
+max_units_per_stack = 2
+where_to_craft = "workshop"
+crafting_ingredients = {
+"metal": 10,
+"nail": 3,
+"string": 5,
+"wood": 10
+}
+units_in_stack = 0

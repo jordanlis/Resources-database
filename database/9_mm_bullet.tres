@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="item" load_steps=2 format=3 uid="uid://cdcgtwrm8ogb5"]
+
+[ext_resource type="Script" path="res://database/class_item.gd" id="1_llsek"]
+
+[resource]
+script = ExtResource("1_llsek")
+unique_key = "test"
+name = "test"
+category = ""
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = ""
+weight = 0.0
+barter_value = 0
+is_consumable = false
+max_units_per_stack = 0
+where_to_craft = ""
+crafting_ingredients = {}
+units_in_stack = 0

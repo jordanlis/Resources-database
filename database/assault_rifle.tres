@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ranged_weapon" load_steps=3 format=3 uid="uid://ruv0k3lp1kfg"]
+
+[ext_resource type="Script" path="res://database/items/class_item_ranged_weapon.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://r2dweuecjpmh" path="res://graphics/icons/assault_rifle.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+base_damage = 20
+shot_rate = 50
+shot_distance = 25
+shot_accuracy = 70
+shot_extent = 10
+shot_kickback = 20
+bullet_type = "5_56_bullet"
+shot_sound = ""
+magazine_capacity = 0
+unique_key = "assault_rifle"
+name = "Assault rifle"
+icon = ExtResource("2")
+category = "ranged weapon"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "This is a military weapon. Only for emergencies. Like zombie invasion, for example."
+weight = 4000.0
+barter_value = 800
+is_consumable = false
+max_units_per_stack = 1
+where_to_craft = ""
+crafting_ingredients = {}
+units_in_stack = 0

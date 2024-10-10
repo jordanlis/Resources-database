@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bwv0gfd7wq5kd" path="res://graphics/icons/needle.png" id="2"]
+
+[resource]
+script = ExtResource( 1 )
+unique_key = "needle"
+name = "Needle"
+icon = ExtResource( 2 )
+category = "tool"
+description = "Can be used to sew and repair."
+weight = 1.0
+barter_value = 10
+is_consumable = false
+max_units_per_stack = 100
+where_to_craft = ""
+crafting_ingredients = {
+}
+units_in_stack = 0

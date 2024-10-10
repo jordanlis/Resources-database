@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="weapon" load_steps=3 format=3 uid="uid://brifwfqneupyj"]
+
+[ext_resource type="Script" path="res://database/items/class_weapon.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cm0gdi53lgvpm" path="res://graphics/icons/crowbar.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+base_damage = 1
+attack_sound = ""
+impact_sound = ""
+unique_key = "crowbar"
+name = "Crowbar"
+icon = ExtResource("2")
+category = "weapon"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "The crowbar takes some place in the inventory and does not make so much damage... But it's better than nothing to defend yourself against zombies ! "
+weight = 1370.0
+barter_value = 30
+is_consumable = false
+max_units_per_stack = 2
+where_to_craft = "workshop"
+crafting_ingredients = {
+"metal": 10
+}
+units_in_stack = 0

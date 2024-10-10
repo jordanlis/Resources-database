@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="item" load_steps=3 format=3 uid="uid://dkat0e43k7nfh"]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1_h014g"]
+[ext_resource type="Texture2D" uid="uid://n482kn0xsae2" path="res://graphics/icons/sausage.png" id="1_px7an"]
+
+[resource]
+script = ExtResource("1_h014g")
+unique_key = "sausage"
+name = "Sausage"
+icon = ExtResource("1_px7an")
+category = "consumable food"
+available_actions = {
+"combine": false,
+"equip": false,
+"rotate": false,
+"throw_away": false,
+"use": false
+}
+description = "Doesn't spoil over time, brings some calories"
+weight = 20.0
+barter_value = 2
+is_consumable = true
+max_units_per_stack = 5
+where_to_craft = "nowhere"
+crafting_ingredients = {}
+units_in_stack = 0

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://database/items/class_item.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://c32hv4ymdjtkb" path="res://graphics/icons/thief_blade.png" id="2"]
+
+[resource]
+script = ExtResource( 1 )
+unique_key = "thief_blade"
+name = "Thief blade"
+icon = ExtResource( 2 )
+category = "tool"
+description = "With that, you can saw some metal bars."
+weight = 50.0
+barter_value = 100
+is_consumable = false
+max_units_per_stack = 5
+where_to_craft = ""
+crafting_ingredients = {
+}
+units_in_stack = 0

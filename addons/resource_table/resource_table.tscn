@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://x7psg1pdrfv2"]
+
+[ext_resource type="Script" path="res://addons/resource_table/resource_table.gd" id="1_spkxv"]
+
+[node name="Control" type="Control"]
+custom_minimum_size = Vector2(500, 500)
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.784
+offset_bottom = -568.96
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 1
+script = ExtResource("1_spkxv")
+
+[node name="Tree" type="Tree" parent="."]
+clip_contents = false
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+columns = 18
+column_titles_visible = true
+allow_reselect = true
+hide_root = true
+select_mode = 2
